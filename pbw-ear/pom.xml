@@ -10,21 +10,21 @@
 
   <parent>
     <groupId>com.ibm.websphere.pbw</groupId>
-    <artifactId>pbw-sample</artifactId>
-    <version>8.0</version>
+    <artifactId>pbw-monolith</artifactId>
+    <version>8.5</version>
   </parent>
 
   <dependencies>
         <dependency>
             <groupId>com.ibm.websphere.pbw</groupId>
             <artifactId>pbw-lib</artifactId>
-            <version>8.0</version>
+            <version>8.5</version>
         </dependency>
 
         <dependency>
             <groupId>com.ibm.websphere.pbw</groupId>
             <artifactId>PlantsByWebSphere</artifactId>
-            <version>8.0</version>
+            <version>8.5</version>
             <type>war</type>
         </dependency>
   </dependencies>
